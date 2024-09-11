@@ -39,5 +39,5 @@ v = 7.2
 print("Найближчий елемент до числа", v, ":", closest_value(X, v))
 
 # Функція scale_columns
-matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+matrix = np.array([[1, 2, 3], [4, 0, 6], [7, 8, 9]])
 print("Масштабована матриця:\n", scale_columns(matrix))
